@@ -19,7 +19,8 @@ Un tag es un segmento de texto encerrado entre los símbolos menor y mayor <>, y
 Los tags pueden admitir atributos, que indican la forma en que dicho tag será interpretado. Estos son incluidos posteriormente al nombre de la etiqueta, encerrado por los mismos símbolos de menor y mayor. Por ejemplo, cuando se incluye una imagen:
 
     ```html
-    <img src="imagenes/imagen1.png" title="Esta es la primer imagen" alt="Imagen 1">```
+    <img src="imagenes/imagen1.png" title="Esta es la primer imagen" alt="Imagen 1">
+    ```
 
 Los campos src, title y alt son atributos de la misma, que indican donde se encuentra dicha imagen, que texto mostrar al pasar el mouse por arriba de la misma, y que texto mostrar cuando la imagen no puede ser descargada (o cuando se usan herramientas de accesibilidad) respectivamente.
 
