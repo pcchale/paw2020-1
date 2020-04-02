@@ -97,8 +97,31 @@ Los siguientes son los motores mas utilizados:
 Aunque hoy en día son bastante parejos, cada motor tiene sus propias funciones o forma de hacer cosas que lo diferencian de los otros, y ventajas o desventajas de performance para ciertas funciones respecto el resto de los motores. Uno debe conocer los puntos fuertes y débiles de cada uno para seleccionar cual priorizar a la hora de crear un sitio web, en caso de ser necesario.
 
 
-### 
+### 6. Dibujar el Wireframe correspondiente a la página principal de lujan.gob.ar y en función a este desarrollar el código HTML5 correspondiente. 
+
+#### Nota: Realizar una captura en imagen del sitio a fin de poder corregir contrastando con lo que muestra el sitio ese día ya que puede variar.
+
+El ejercicio 6 se encuentra dentro de la carpeta [Ejercicio_6](https://github.com/matalmazan/paw2020-1/tree/master/Ejercicio_6).
+
+Dentro de la misma pueden verse:
+* [La captura de la página web](https://github.com/matalmazan/paw2020-1/blob/master/Ejercicio_6/Screenshot_2020-04-02%20Municipalidad%20de%20Luj%C3%A1n%20%E2%80%93%202020.jpg),
+* [El wireframe de la misma](https://github.com/matalmazan/paw2020-1/blob/master/Ejercicio_6/Wireframe%20-%20lujan.gob.ar.pdf), 
+* y [el código HTML que intenta representarla](https://github.com/matalmazan/paw2020-1/blob/master/Ejercicio_6/Ejercicio_6.html)
+
+### 7. Elabore en HTML5 una página que contenga su currículum vítae, respetando la estructura que se muestra a continuación. Tenga en cuenta que los elementos subrayados son enlaces a páginas web o a direcciones de correo electrónico y que la foto debe ser un enlace a la propia imagen. Determine qué tags con qué atributos son necesarios en cada caso.
+
+Referirse al ejercicio 7 del [PDF del Trabajo Práctico N.º1](https://github.com/matalmazan/paw2020-1/blob/master/PAW_TP1_HTML.pdf) para ver el modelo de currículum vitae.
+
+La respuesta al ejercicio 7 se encuentra dentro de la carpeta [Ejercicio_7](https://github.com/matalmazan/paw2020-1/tree/master/Ejercicio_7). Allí encontraran:
+
+* Un documento HTML que representa al CV de ejemplo
+* La/s imagen/es a usar para foto de perfil y otros para el mismo. Las imágenes no incluidas son consideradas decorativas
 
 
-### Ejercicio 6
-### Ejercicio 7
+### 8. Elabore el código necesario para representar la siguiente tabla:
+
+Referirse al último ejercicio del [PDF del Trabajo Práctico N.º1](https://github.com/matalmazan/paw2020-1/blob/master/PAW_TP1_HTML.pdf) para ver la tabla.
+
+La respuesta al ejercicio 8 se encuentra dentro de la carpeta [Ejercicio_8]((https://github.com/matalmazan/paw2020-1/tree/master/Ejercicio_8). En la misma se verá:
+
+* Un documento HTML que representa la tabla dada
