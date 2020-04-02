@@ -4,9 +4,7 @@ La parte teórica del TP se encuentra en la siguiente sección, dentro de este m
 
 Los ejercicios prácticos están distribuidos de la siguiente manera:
 
-### Ejercicio 5
-### Ejercicio 6
-### Ejercicio 7
+
 
 ## Teoría
 
@@ -97,3 +95,10 @@ Los siguientes son los motores mas utilizados:
 * Opera: Blink
 
 Aunque hoy en día son bastante parejos, cada motor tiene sus propias funciones o forma de hacer cosas que lo diferencian de los otros, y ventajas o desventajas de performance para ciertas funciones respecto el resto de los motores. Uno debe conocer los puntos fuertes y débiles de cada uno para seleccionar cual priorizar a la hora de crear un sitio web, en caso de ser necesario.
+
+
+### 
+
+
+### Ejercicio 6
+### Ejercicio 7
