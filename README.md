@@ -2,10 +2,6 @@
 
 La parte teórica del TP se encuentra en la siguiente sección, dentro de este mismo README.
 
-Los ejercicios prácticos están distribuidos de la siguiente manera:
-
-
-
 ## Teoría
 
 ### 1. ¿Qué es un lenguaje de marcado? ¿Cuál es su utilidad? ¿Qué es un tag? ¿Qué es un atributo?
@@ -96,6 +92,8 @@ Los siguientes son los motores mas utilizados:
 
 Aunque hoy en día son bastante parejos, cada motor tiene sus propias funciones o forma de hacer cosas que lo diferencian de los otros, y ventajas o desventajas de performance para ciertas funciones respecto el resto de los motores. Uno debe conocer los puntos fuertes y débiles de cada uno para seleccionar cual priorizar a la hora de crear un sitio web, en caso de ser necesario.
 
+
+## Práctica
 
 ### 6. Dibujar el Wireframe correspondiente a la página principal de lujan.gob.ar y en función a este desarrollar el código HTML5 correspondiente. 
 
