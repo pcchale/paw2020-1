@@ -1,4 +1,4 @@
-#Trabajo Práctico Nº1: Introducción al maquetado
+# Trabajo Práctico Nº1: Introducción al maquetado
 
 La parte teórica del TP se encuentra en la siguiente sección, dentro de este mismo README.
 
@@ -8,17 +8,19 @@ Los ejercicios prácticos están distribuidos de la siguiente manera:
 ### Ejercicio 6
 ### Ejercicio 7
 
-##Teoría
+## Teoría
 
 ### 1. ¿Qué es un lenguaje de marcado? ¿Cuál es su utilidad? ¿Qué es un tag? ¿Qué es un atributo?
 
 Es un lenguaje de marcado. Se utiliza para darle formato a un texto haciendo uso de tags (o etiquetas). Dicho texto etiquetado luego será interpretado por algún software (usualmente un navegador, o browser), y haciendo uso de sus etiquetas podrá representar la información contenida de distintas maneras, mucho mas amigables al ojo humano. Cada etiqueta tiene un uso distinto, y su correcta implementación facilita la comprensión y navegación del usuario.
 
-Un tag es un segmento de texto encerrado entre los símbolos menor y mayor <>, y definido de antemano para ser representado por un navegador u aplicación de una forma conocida. Casi todo tag tiene su par, con una versión de si mismo que indica el fin de un segmento "taggeado" o etiquetado; por ejemplo en HTML, el tag utilizado para indicar la existencia de párrafos <p>, que tiene su par en </p>, que indica el fín del mismo.
+Un tag es un segmento de texto encerrado entre los símbolos menor y mayor <>, y definido de antemano para ser representado por un navegador u aplicación de una forma conocida. Casi todo tag tiene su par, con una versión de si mismo que indica el fin de un segmento "taggeado" o etiquetado; por ejemplo en HTML, el tag utilizado para indicar la existencia de párrafos '<p>', que tiene su par en '</p>', que indica el fín del mismo.
 
 Los tags pueden admitir atributos, que indican la forma en que dicho tag será interpretado. Estos son incluidos posteriormente al nombre de la etiqueta, encerrado por los mismos símbolos de menor y mayor. Por ejemplo, cuando se incluye una imagen:
+
     ```html
     <img src="imagenes/imagen1.png" title="Esta es la primer imagen" alt="Imagen 1">```
+
 Los campos src, title y alt son atributos de la misma, que indican donde se encuentra dicha imagen, que texto mostrar al pasar el mouse por arriba de la misma, y que texto mostrar cuando la imagen no puede ser descargada (o cuando se usan herramientas de accesibilidad) respectivamente.
 
 ### 2. ¿Cuál es la utilidad de HTML? ¿Qué conjunto mínimo de tags debe contener un documento
@@ -27,19 +29,19 @@ Los campos src, title y alt son atributos de la misma, que indican donde se encu
 El HTML o Hypertext Markup Language es un lenguaje de marcado que, utilizando etiquetas como fue explicitado anteriormente, permite la elaboración de páginas web que sean mas que solo texto plano.
 
 Como mínimo, un documento HTML debe incluir:
-* <!DOCTYPE HTML> , que marca el inicio del documento, lenguate a usar y su versión (estandar HTML5).
-* <html> </html>. Estas indican el inicio y fin del uso de tags que responden al lenguage HTML propiamente dicho, y enmarcan la totalidad del documento.
-* <head> </head>, que corresponden al encabezado del documento. En este se especifica (entre otros) el siguiente tag necesario;
-* <title> </title>. Este define el título a mostrar en la ventana del browser que muestre nuestro documento.
-* <body> </body>, que indica una sección fuera del head en la cual se encuentra el cuerpo del documento. 
+* '<!DOCTYPE HTML>' , que marca el inicio del documento, lenguate a usar y su versión (estandar HTML5).
+* '<html> </html>'. Estas indican el inicio y fin del uso de tags que responden al lenguage HTML propiamente dicho, y enmarcan la totalidad del documento.
+* '<head> </head>', que corresponden al encabezado del documento. En este se especifica (entre otros) el siguiente tag necesario;
+* '<title> </title>'. Este define el título a mostrar en la ventana del browser que muestre nuestro documento.
+* '<body> </body>', que indica una sección fuera del head en la cual se encuentra el cuerpo del documento. 
 
 Una estructura básica responde al siguiente esquema:
 
 ```html
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Título de la página</title>
+    <head>
+	    <title>Título de la página</title>
 	</head>
 	<body>
 		<p>Contenido de un párrafo, dentro del cuerpo del documento</p>
@@ -58,17 +60,17 @@ Los enlaces pueden apuntar a muchos tipos de recursos distintos y no solo a otra
 
 Los tags de audio y video tienen una estructura muy similar entre ellos. Como atributo de ambos tags, "controls" indica al browser que debe representar su panel de controles de audio o video por defecto, según cual tag se use. En el caso particular del tag video también se hace uso de los atributos width y height para definir el tamaño con el cual representar el video a mostrar.
 
-Ambos hacen uso del tag <source> con los atributos src y type. El primero indica el camino relativo del archivo a reproducir, mientras que el segundo indica el formato del mismo.
+Ambos hacen uso del tag '<source>' con los atributos src y type. El primero indica el camino relativo del archivo a reproducir, mientras que el segundo indica el formato del mismo.
 
-Cualquier texto que exista entre los tags <audio> </audio> y <video> </video> será mostrado en caso que el browser no soporte el uso de dichos tags.
+Cualquier texto que exista entre los tags '<audio> </audio>' y '<video> </video>' será mostrado en caso que el browser no soporte el uso de dichos tags.
 
 A modo de ejemplo: 
 
 ```html
- <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-  Tu broswer no soporta el tag audio.
+<audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+    Tu broswer no soporta el tag audio.
 </audio> 
 ```
 
