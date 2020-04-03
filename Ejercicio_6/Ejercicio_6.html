@@ -7,13 +7,16 @@
     </head>
     <body>
         <header>
+            <!-- Estas seguro que el titulo principal es el nombre del intendente. O será Municiopio de Lujan. Las imagenes tambien pueden ser títulos-->
             <a href="http://www.lujan.gob.ar"><img src="" alt="Municipio de Luján - Intendente Leonardo Boto"/></a>
             <h1>LEO BOTO • INTENDENTE</h1>
+            <!-- Esto no será un listado de redes sociales? Será una barra de navedación? -->
             <a href="https://www.facebook.com/municipalidaddelujanoficial/"><img src="" alt="Facebook"/></a>
             <a href="https://www.youtube.com/user/prensalujan"><img src="" alt="YouTube"/></a>
             <a href="https://www.instagram.com/municipalidadlujan/"><img src="" alt="Instagram"/></a>
             <a href="https://t.me/Munilujanbot"><img src="" alt="Telegram"/></a>
             <nav>
+                <!-- Faltan los submenues -->
                 <ul>
                     <li><a href="">PORTADA</a></li>
                     <li><a href="">LUJÁN</a></li>
@@ -21,21 +24,34 @@
                     <li><a href="">ÁREAS DE GOBIERNO</a></li>
                     <li><a href="">SERVICIOS</a></li>
                     <li><a href="">CONTACTO</a></li>
+                    <!-- y el form de busqueda? -->
                     <li><a href=""><img src="" alt="Buscar"></a></li>
                     <li><a href=""><img src="" alt="Menú"></a></li>
                 </ul>
             </nav>
-
+            <!-- esto no será una sección eventos?
+                Seguro que va en el header?
+                Los "botones" anterios y siguiente son contenido o es funcionalidad? Si son funcionalidad es problema del JS
+             -->
             <p>Eventos: </p>
             <a href=""><img src="" alt="Evento Anterior"></a>
             <a href=""><img src="" alt="Evento Siguiente"></a>
+            <!-- No hay un listado de eventos? -->
             <a href="">Informe N.º 16: Coronavirus / 01/04/2020 (21:30 horas)</a>
+            <!-- No hay un tag mas representativo para las fechas-->
             <p>02 <br>ABRIL, JUEVES</p>
+            <!-- la fecha y el tiempo son eventos? No habría que separarlos de alguna manera -->
             <p>°C <br>TIEMPO EN LUJÁN</p>
         </header>
         <main>
+            <!-- Toda la información de una noticia debería agruparse con algun tag que la represente 
+                 Se podran agrupar todas las noticias bajo algun tag?
+            -->
+            
+            <!-- esta imagen es una imagen suelta o es una figura? que diferencia hay entre <img> y <figure>? -->
             <img src="" alt="Noticia Principal">
             <p>31 marzo, 2020</p>
+            <!-- No podes poner h4 si no depende de un h3 -->
             <h4><a href="">RECOMENDACIONES ANTE LA EMERGENCIA SANITARIA POR LA PANDEMIA DE CORONAVIRUS</a></h4>
             <p>Ante la declaración de la Emergencia Sanitaria por la pandemia de Coronavirus (Covid-19), la municipalidad de Luján difunde una serie...</p>
         
@@ -47,6 +63,7 @@
             <p>31 marzo, 2020</p>
             <h4><a href="">COMENZÓ LA INSTALACIÓN DE LOS NUEVOS CONSULTORIOS EXTERNOS EN EL HOSPITAL</a></h4>
         
+               <!-- estos links no se pueden agrupar de alguna manera? estaran semanticamente relacionados? -->
             <a href=""><img src="" alt="Estacionamiento medido"></a>
             <a href=""><img src="" alt="Regularización"></a>
             <a href=""><img src="" alt="Denuncia anónima"></a>
@@ -90,6 +107,7 @@
                 <p>En el marco de la Emergencia Sanitaria por la pandemia de Coronavirus y el aislamiento social preventivo y obligatorio, este ...</p>
 
                 <!-- Sección de videos-->
+                <!-- Si te diste cuenta que es una sección aparte. No tendrias que poner algun tag que lo demuestre? -->
                 <h2>Ultimos videos</h2>
                 <a href=""><img src="" alt="Video 1"></a>
                 <h4><a href="">PUESTA EN MARCHA DE LOS NUEVOS CONSULTORIOS MODULARES EXTERNOS EN EL HOSPITAL</a></h4>
@@ -104,6 +122,7 @@
                 <a href=""><img src="" alt="Evento 1"></a>
                 <a href=""><img src="" alt="Evento 2"></a>
                 <a href=""><img src="" alt="Evento 3"></a>
+                <!-- Por qué las pones en un aside? ¿Porque aparecen al costado? -->
                 <aside>
                     <a href=""><img src="" alt="Denuncia Incumplimientos"></a>
                     <a href=""><img src="" alt="Comprá Cerca"></a>
@@ -159,6 +178,7 @@
             <p>°C TIEMPO EN LUJÁN</p>
             <p>02 ABRIL, JUEVES</p>
 
+            <!-- esto no es una barra de navegación? -->
             <ul>
                 <li><a href="">PORTADA</a></li>
                 <li><a href="">LUJÁN</a></li>
@@ -166,7 +186,9 @@
                 <li><a href="">ÁREAS DE GOBIERNO</a></li>
                 <li><a href="">SERVICIOS</a></li>
                 <li><a href="">CONTACTO</a></li> 
+                <!-- Este link es contenido o una funcionalidad? -->
                 <li><a href=""><img src="" alt="Ir arriba"></a></li>
+                <!-- Esto tiene el mismo significado semantico que los links anteriores. Fijate que hay un tag que lo representa mejor. -->
                 <li>Municipalidad de Luján - Todos los derechos reservados - 2017</li>
             </ul>            
         </footer>
