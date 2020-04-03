@@ -120,6 +120,6 @@ La respuesta al ejercicio 7 se encuentra dentro de la carpeta [Ejercicio_7](http
 
 Referirse al último ejercicio del [PDF del Trabajo Práctico N.º1](https://github.com/matalmazan/paw2020-1/blob/master/PAW_TP1_HTML.pdf) para ver la tabla.
 
-La respuesta al ejercicio 8 se encuentra dentro de la carpeta [Ejercicio_8]((https://github.com/matalmazan/paw2020-1/tree/master/Ejercicio_8). En la misma se verá:
+La respuesta al ejercicio 8 se encuentra dentro de la carpeta [Ejercicio_8](https://github.com/matalmazan/paw2020-1/tree/master/Ejercicio_8). En la misma se verá:
 
 * Un documento HTML que representa la tabla dada
